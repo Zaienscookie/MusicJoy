@@ -1,0 +1,10 @@
+{
+  "temp_sound": {
+    "sounds": [
+      {
+        "name": "musicjoymod:sounds/temp_sound",
+        "stream": true
+      }
+    ]
+  }
+}

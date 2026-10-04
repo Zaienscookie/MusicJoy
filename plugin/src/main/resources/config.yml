@@ -1,0 +1,21 @@
+netease:
+  api-timeout: 10000
+  max-songs: 50
+
+music:
+  download-path: plugins/NetEaseMusicPlayer/music
+  max-volume: 100
+  default-volume: 50
+
+vip:
+  default-days: 30
+
+http:
+  port: 25566
+  host: "0.0.0.0"
+
+settings:
+  auto-save: true
+  auto-play: false
+  lyric-enable: true
+  bossbar-enable: true

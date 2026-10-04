@@ -1,0 +1,19 @@
+# 构建产物
+plugin/target/
+mod/build/
+mod/bin/
+mod/.gradle/
+.gradle/
+*.class
+**/run/
+
+# 运行期 / 敏感文件（勿提交）
+cookies.txt
+plugins/
+config.local.yml
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml

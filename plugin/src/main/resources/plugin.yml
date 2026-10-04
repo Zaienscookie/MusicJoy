@@ -1,0 +1,30 @@
+name: MusicJoy
+version: 1.0.0
+main: com.musicplayer.MusicPlayerPlugin
+api-version: 1.13
+author: MusicPlayer
+description: MusicJoy - 网易云音乐全服音乐播放插件
+
+commands:
+  music:
+    description: 网易云音乐主命令
+    aliases: [musicplayer, netease, ncm]
+    usage: /music <子命令>
+
+permissions:
+  musicplayer.*:
+    description: 所有权限
+    default: op
+    children:
+      musicplayer.use: true
+      musicplayer.admin: true
+      musicplayer.vip: true
+  musicplayer.use:
+    description: 使用基本功能
+    default: true
+  musicplayer.admin:
+    description: 管理员权限
+    default: op
+  musicplayer.vip:
+    description: VIP权限
+    default: false

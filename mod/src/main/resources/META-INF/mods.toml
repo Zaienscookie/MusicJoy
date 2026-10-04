@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="musicjoymod"
+version="1.0.0"
+displayName="MusicJoy Mod"
+logoFile="musicjoy.png"
+credits="MusicPlayer"
+authors="MusicPlayer"
+description='''
+MusicJoy 是一个面向 Minecraft 服务器的全服音乐播放客户端模组。
+
+配合服务端插件，玩家在游戏内即可通过聊天命令搜索与点播网易云音乐，
+音频经 Forge 网络通道实时传输，全服在线玩家将同步收听歌曲。
+
+功能特性：
+· 全服同步播放，无需离开游戏
+· 支持搜索、点歌、队列、循环
+· 可独立调节音量（联动唱片机音量）
+· 支持 LRC 歌词同步显示
+'''
+
+[[dependencies.musicjoymod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.musicjoymod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
